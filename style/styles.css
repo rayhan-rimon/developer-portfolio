@@ -1,0 +1,92 @@
+/* Font Install with Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+}
+/* ===== Header Styles ===== */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png'); 
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    /* width: 1600px;
+    height: 837px; */
+}
+
+/* ===== Navigation Styles ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* ===== Banner Styles ===== */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-sub-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-discription {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+
+}
+.btn-white {
+    background-color: #FFF8F3;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #FD6E0A;
+    font-weight: 600;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+}
+
