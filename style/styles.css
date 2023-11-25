@@ -278,3 +278,18 @@ main {
 input {
     height: 44px;
 }
+
+/* ===== Footer Copyright Title ===== */
+.footer-copyrights {
+    text-align: center;
+    padding: 20px;
+    color: #474747;
+    background-color: #FD6E0A;
+    border-top: 3px solid #474747;
+}
+
+.footer-copyrights > p > a {
+    color: #D1D1D1;
+    font-weight: 600;
+    text-decoration: none;
+}
